@@ -1,0 +1,185 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    color: #212121;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    background-color: #FFFFFF;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+
+    padding: 30px 0;
+
+    background-color: #d8e5e6;
+}
+
+.sidebar-content {
+    margin: 0 auto;
+}
+
+.sidebar-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-section:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.sidebar-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.picture {
+    display: block;
+
+    margin-bottom: 30px;
+
+    border-radius: 5px;
+
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.sidebar-list-item {
+    padding-left: 15px;
+}
+
+.sidebar-list > li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.title-name {
+    font-size: 48px;
+
+    margin-bottom: 10px;
+}
+
+/* .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.info-title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px 0;
+
+    background-color: #d8e5e6;
+}
+ 
+.info-title-section > p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info-section {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.summary-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.info-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.unit-list {
+    list-style: none;
+}
+
+.info-unit {
+    margin-bottom: 20px;
+}
+
+.info-unit > h4 {
+    margin-bottom: 5px;
+}
+
+.paragraph {
+    margin-bottom: 5px;
+}
+.last-paragraph {
+    margin-bottom: 10px;
+}
+
+.info-list {
+    padding-left: 15px;
+
+    list-style-type: disc;
+}
+
+.info-list > li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.border-style {
+    border-bottom: 2px solid #d8e5e6;
+    padding-bottom: 3px;
+}
+
+.project:not(:last-child) {
+        margin-bottom: 10px;
+}
+
+.project-link-box {
+    margin-bottom: 7px;
+}
+
+.project-link-box a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.project-link-box a:not(:last-child) {
+    margin-right: 7px;
+}
+
